@@ -43,7 +43,7 @@ public class RentalCarCalculator {
             roadAssistanceCost = 3.95 * daysRental;
         }
 
-        optionsCost = tollTagCost + roadAssistanceCost + optionsCost;
+        optionsCost = tollTagCost + gpsCost + roadAssistanceCost;
 
         double underageSurcharge = 0;
         if (age <= 25){
