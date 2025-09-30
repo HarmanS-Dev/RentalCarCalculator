@@ -7,7 +7,7 @@ public class RentalCarCalculator {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("What date willy you pick up the car? ");
+        System.out.println("What date will you pick up the car? ");
         String pickupDate = input.nextLine();
 
         System.out.println("How many days would you like to rent the car for? ");
